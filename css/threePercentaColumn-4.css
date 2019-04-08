@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+#navigation{
+    float: left;
+    border: 1px solid red;
+    width: 25%;
+    margin-left: -100%;
+}
+#extra{
+    float: left;
+    border: 1px solid blue;
+    width: 25%;
+    margin-left:-75%; 
+}
+#footer{
+    border: 1px solid green;
+}
+#wrapper{
+    float: left;
+    width: 100%;
+    border:1px solid
+}
+#content{
+    margin-left: 50%;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+} 

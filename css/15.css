@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+#container {
+    /* width: 700px;
+    margin: 0 auto; */
+    /* border: 1px solid ; */
+}
+#wrapper {
+   width: 100%;
+   float: left;
+    /* width: 400px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-left: 150px; */
+}
+#content {
+   /* margin-left: 200px; */
+   margin-right: 400px;
+
+}
+#navigation{
+    float: left;
+    width: 200px;
+    border: 1px solid palevioletred;
+    margin-left: -400px;
+  
+}
+#extra{
+    float: left;
+    width: 200px;
+    border: 1px solid green;
+    margin-left: -200px;
+}
+#footer{
+    clear: both;
+    border: 1px solid blue;
+}

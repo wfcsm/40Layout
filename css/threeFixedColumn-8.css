@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+#container {
+    width: 700px;
+    margin: 0 auto;
+    /* border: 1px solid ; */
+}
+#wrapper {
+    float: left;
+    width: 400px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-left: 150px;
+}
+#navigation{
+    float: right;
+    width: 150px;
+    border: 1px solid palevioletred
+}
+#extra{
+    float: left;
+    width: 150px;
+    border: 1px solid green;
+    margin-left: -550px;
+}
+#footer{
+    clear: both;
+    border: 1px solid blue;
+}

@@ -1,0 +1,33 @@
+/* 1.wrapper 左对齐且占据50%宽度
+   2.extra、navigation宽度25%，依次位于content右侧 */
+   *{
+    box-sizing: border-box;
+}
+#navigation{
+    float: left;
+    border: 1px solid red;
+    width: 25%;
+    margin-left: -50%;
+}
+#extra{
+    float: left;
+    border: 1px solid blue;
+    width: 25%;
+    margin-left:-25%; 
+}
+#footer{
+    border: 1px solid green;
+}
+#wrapper{
+    float: left;
+    width: 100%;
+    border:1px solid
+}
+#content{
+    margin-right: 50%;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}

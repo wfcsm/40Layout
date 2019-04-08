@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+#container {
+    width: 700px;
+    margin: 0 auto;
+    /* border: 1px solid ; */
+}
+#wrapper {
+    float: left;
+    /* width: 400px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-left: 150px; */
+}
+#content {
+    width: 400px;
+
+}
+#navigation{
+    float: right;
+    width: 150px;
+    border: 1px solid palevioletred;
+  
+}
+#extra{
+    float: left;
+    width: 150px;
+    border: 1px solid green;
+   
+}
+#footer{
+    clear: both;
+    border: 1px solid blue;
+}

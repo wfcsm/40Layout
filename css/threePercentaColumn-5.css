@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+#navigation{
+    float: left;
+    border: 1px solid red;
+    width: 25%;
+    
+}
+#extra{
+    float: left;
+    border: 1px solid blue;
+    width: 25%;
+}
+#footer{
+    border: 1px solid green;
+    clear: both;
+}
+#wrapper{
+    width:50%;
+    border:1px solid;
+    float: left;
+    
+}
+#content{
+   float: left;
+   width: 100%;
+}
+
